@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { cleanup, render, waitForDomChange } from '@testing-library/react';
 import ChatsList from './ChatsList';
-import { any } from 'prop-types';
 
 describe('ChatsList', () => {
   afterEach(cleanup);
